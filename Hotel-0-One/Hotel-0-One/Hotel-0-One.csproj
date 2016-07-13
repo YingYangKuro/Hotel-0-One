@@ -199,7 +199,12 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ListaHabitacionesController.cs" />
+    <Compile Include="Controllers\ListaServiciosController.cs" />
+    <Compile Include="Controllers\ListaUsuariosController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\RegistroDeUsuariosController.cs" />
+    <Compile Include="Controllers\ReservacionesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -318,6 +323,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\ListaHabitaciones\" />
+    <Folder Include="Views\ListaServicios\" />
+    <Folder Include="Views\ListaUsuarios\" />
+    <Folder Include="Views\RegistroDeUsuarios\" />
+    <Folder Include="Views\Reservaciones\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

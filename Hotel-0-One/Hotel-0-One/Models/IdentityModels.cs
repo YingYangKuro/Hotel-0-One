@@ -29,5 +29,15 @@ namespace Hotel_0_One.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<Hotel_0_One.Models.RegistroDeUsuarios> RegistroDeUsuarios { get; set; }
+
+        public System.Data.Entity.DbSet<Hotel_0_One.Models.Reservaciones> Reservaciones { get; set; }
+
+        public System.Data.Entity.DbSet<Hotel_0_One.Models.ListaHabitaciones> ListaHabitaciones { get; set; }
+
+        public System.Data.Entity.DbSet<Hotel_0_One.Models.ListaServicios> ListaServicios { get; set; }
+
+        public System.Data.Entity.DbSet<Hotel_0_One.Models.ListaUsuario> ListaUsuarios { get; set; }
     }
 }
